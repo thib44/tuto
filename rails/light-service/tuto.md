@@ -1,9 +1,9 @@
 <h3> How to create service with light-service ? </h3>
 
 Add gem 'light-service', '~> 0.6.1'
+https://github.com/adomokos/light-service <br>
 To Gemfile <br>
 Run `bundle` <br>
-https://github.com/adomokos/light-service <br>
 
 Create a `services` folder in `app/`
 In this folder I can create files or subfolder (like in all ruby projects). <br>
@@ -24,6 +24,8 @@ def self.to_post(:user, :project, params: {})
   with(user: user, project: project, params: params)
   .reduce [
     Contributions::SaveContributionAction
+    # Other action
+    # Other action
   ]
 end
 ```
