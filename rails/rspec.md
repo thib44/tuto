@@ -58,3 +58,15 @@ end
 
 Get the log of the test : <br>
 `tail -f log/test.log`
+
+
+<h3> How to deal with devise ? </h3> <br>
+
+Add this two lines to `spec/rails_helper.rb` <br>
+```ruby
+config.include Devise::TestHelpers, type: :controller
+config.include Devise::TestHelpers, type: :view
+```
+
+Then to sign_in a user you just have to do : `sign_in user` <br>
+And to sign_out : `sign_out user`
