@@ -9,12 +9,11 @@ Gem required :
 
 Gem optional :
 > `gem 'faker'` : https://github.com/stympy/faker <br>
-> Pour tester les vues : https://github.com/teamcapybara/capybara <br>
+> To test views : https://github.com/teamcapybara/capybara <br>
 
 If your test call some API you need this two gem :
 > `gem 'vcr', '~> 3.0', '>= 3.0.3'` <br>
 > `gem 'webmock'` <br>
-
 
 
 Refactor :
@@ -62,7 +61,6 @@ Get the log of the test : <br>
 Generate a test from console : <br>
 > `rails g rspec:model user` <br>
 > `rails g rspec:controller users/registrations`
-
 
 <h3> How to deal with devise ? </h3> <br>
 
