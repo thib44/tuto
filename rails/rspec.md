@@ -57,7 +57,11 @@ end
 
 
 Get the log of the test : <br>
-`tail -f log/test.log`
+`tail -f log/test.log` <br>
+
+Generate a test from console : <br>
+> `rails g rspec:model user` <br>
+> `rails g rspec:controller users/registrations`
 
 
 <h3> How to deal with devise ? </h3> <br>
