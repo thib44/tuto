@@ -65,4 +65,4 @@ $(document).ready(function() {
 });
 ```
 
-If the `response` from google is an empty array It mean that the share was ok !
+If the `response` from facebook is an empty array It mean that the share was ok !
