@@ -18,3 +18,6 @@ action_item :view, only: :show do
   link_to 'Connexion', sign_in_as_admin_user_path(resource), method: :put
 end
 ```
+
+An inline block in view part will look like :
+`row (:country) { user.country_name }`
