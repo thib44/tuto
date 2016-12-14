@@ -50,6 +50,7 @@ RSpec.describe RegistrationsController, type: :controller do
         expect(response).to redirect_to root_url
       end
     end
+
   end
 end
 ```
@@ -61,6 +62,9 @@ Get the log of the test : <br>
 Generate a test from console : <br>
 > `rails g rspec:model user` <br>
 > `rails g rspec:controller users/registrations`
+
+If you are creating without console, take care, tue file need to have `_rspec.rb` ad the end
+
 
 <h3> How to deal with devise ? </h3> <br>
 
