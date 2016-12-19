@@ -1,6 +1,6 @@
 <h3> How to create service with light-service ? </h3>
 
-Add gem 'light-service', '~> 0.6.1'
+Add gem 'light-service', '~> 0.6.1' <br>
 https://github.com/adomokos/light-service <br>
 To Gemfile <br>
 Run `bundle` <br>
