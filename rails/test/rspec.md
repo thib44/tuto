@@ -15,6 +15,8 @@ If your test call some API you need this two gem :
 > `gem 'vcr', '~> 3.0', '>= 3.0.3'` <br>
 > `gem 'webmock'` <br>
 
+Then run `rails generate rspec:install`
+
 
 Refactor :
 
