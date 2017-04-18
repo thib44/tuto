@@ -15,7 +15,31 @@ If your test call some API you need this two gem :
 > `gem 'vcr', '~> 3.0', '>= 3.0.3'` <br>
 > `gem 'webmock'` <br>
 
-Then run `rails generate rspec:install`
+<h3>Installation :</h3>
+- Run `rails generate rspec:install` <br>
+- In `config/application.rb` add : <br>
+```ruby
+config.generators do |g|
+  g.test_framework :rspec,
+    fixtures: true,
+    view_specs: false,
+    helper_specs: false,
+    routing_specs: false,
+    controller_specs: true,
+    request_specs: false
+  g.fixture_replacement :factory_girl, dir: "spec/factories"
+end
+```
+
+Get the log of the test : <br>
+`tail -f log/test.log` <br>
+
+Generate a test from console : <br>
+> `rails g rspec:model user` <br>
+> `rails g rspec:controller users/registrations`
+
+If you are creating without console, take care, the file need to have `_rspec.rb` ad the end
+
 
 
 Refactor :
@@ -56,16 +80,6 @@ RSpec.describe RegistrationsController, type: :controller do
   end
 end
 ```
-
-
-Get the log of the test : <br>
-`tail -f log/test.log` <br>
-
-Generate a test from console : <br>
-> `rails g rspec:model user` <br>
-> `rails g rspec:controller users/registrations`
-
-If you are creating without console, take care, tue file need to have `_rspec.rb` ad the end
 
 
 <h3> How to deal with devise ? </h3> <br>
