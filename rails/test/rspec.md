@@ -16,8 +16,9 @@ If your test call some API you need this two gem :
 > `gem 'webmock'` <br>
 
 <h3>Installation :</h3>
-- Run `rails generate rspec:install` <br>
-- In `config/application.rb` add : <br>
+Run `rails generate rspec:install` <br>
+In `config/application.rb` add : <br>
+
 ```ruby
 config.generators do |g|
   g.test_framework :rspec,
