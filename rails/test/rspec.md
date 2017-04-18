@@ -32,7 +32,7 @@ config.generators do |g|
 end
 ```
 <br>
-To avoid problem with email, add this two lines in `config/environments/test.rb` :
+To avoid problem with email, add this two lines in `config/environments/test.rb` : <br>
 ```ruby
 config.action_mailer.delivery_method = :test  # Normaly is already in the file
 config.action_mailer.default_url_options = { host: ENV['HOST'] || "localhost:3000" }
