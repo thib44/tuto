@@ -82,3 +82,11 @@ pipelines:
             - bundle exec rspec
             - git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git
 ```
+<br>
+Finaly create a `app.json` file at the racine of your rails app. <br>
+And put inside : <br>
+```
+{
+  "scripts": { "postdeploy": "bundle exec rake db:migrate" }
+}
+```
