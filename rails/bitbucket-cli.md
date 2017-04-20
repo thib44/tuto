@@ -1,7 +1,7 @@
 <h1>How to use bitbucket pipeline</h1>
 Follow the bitbucket tutorial. <br>
 This config work with ruby 2.4.0 and postgresql
-In the file that they give to you put :
+In the file that they give to you put : <br>
 ```
 image: sdavies/ruby-postgresql
 pipelines:
