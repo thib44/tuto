@@ -2,7 +2,7 @@
 Follow the bitbucket tutorial. <br>
 This config work with ruby 2.4.0 and postgresql
 In the file that they give to you put : <br>
-```
+```yaml
 image: sdavies/ruby-postgresql
 pipelines:
   default:
