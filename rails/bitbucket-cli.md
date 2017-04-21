@@ -63,7 +63,6 @@ pipelines:
           - apt-get update
           - apt-get --assume-yes install nodejs
           - /etc/init.d/postgresql start
-          - sudo -u postgres sh -c 'createuser root & createdb ruby'
           - bundle install
           - bundle exec rake db:reset RAILS_ENV=test
           - bundle exec rake db:migrate RAILS_ENV=test
@@ -75,7 +74,6 @@ pipelines:
             - apt-get update
             - apt-get --assume-yes install nodejs
             - /etc/init.d/postgresql start
-            - sudo -u postgres sh -c 'createuser root & createdb ruby'
             - bundle install
             - bundle exec rake db:reset RAILS_ENV=test
             - bundle exec rake db:migrate RAILS_ENV=test
