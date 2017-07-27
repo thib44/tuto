@@ -6,3 +6,12 @@ And then to remove all the modifications : <br>
 
 Or for all the modifications in current commit :<br>
 `git reset --hard`
+
+
+
+## To copy a commit branch :
+  - Go to the branch,
+  - `git cherry-pick <hash-of-commit>`
+  
+## To delete a commit :
+ `git revert <hash-of-commit>`
