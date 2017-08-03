@@ -12,6 +12,11 @@ Or for all the modifications in current commit :<br>
 ## To copy a commit branch :
   - Go to the branch,
   - `git cherry-pick <hash-of-commit>`
-  
+
 ## To delete a commit :
  `git revert <hash-of-commit>`
+
+
+## Remove file which I don't want to be tracted (delete it)
+
+`git rm -r --cached --ignore-unmatch MY_FILES`
