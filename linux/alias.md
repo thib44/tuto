@@ -8,7 +8,7 @@ Then run `source ~/.zshrc`
 
 
 
-Create Alias for rails :
+## Create Alias for rails :
 
 Create or edit file : `~/.pryrc`
 
@@ -18,5 +18,4 @@ And create your method for alias, example :
   def swtt
     swt('test')
   end
-
 ```
