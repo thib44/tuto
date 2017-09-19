@@ -88,6 +88,12 @@ RSpec.describe RegistrationsController, type: :controller do
 end
 ```
 
+### To easy use factory girl :
+Add this line in `rails_helper.rb` :
+```
+# Include factory girl
+config.include FactoryGirl::Syntax::Methods
+```
 
 <h3> How to deal with devise ? </h3> <br>
 
