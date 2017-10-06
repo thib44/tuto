@@ -13,3 +13,4 @@ http://www.umlet.com/
 ## Pattern
 https://www.sitepoint.com/7-design-patterns-to-refactor-mvc-components-in-rails/ </br>
 https://github.com/piscolomo/ruby-patterns#state
+https://mozilladevelopers.github.io/playground/
