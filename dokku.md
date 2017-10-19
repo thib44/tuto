@@ -1,0 +1,1 @@
+dokku domains:enable account
