@@ -14,3 +14,4 @@ http://www.umlet.com/
 https://www.sitepoint.com/7-design-patterns-to-refactor-mvc-components-in-rails/ </br>
 https://github.com/piscolomo/ruby-patterns#state
 https://mozilladevelopers.github.io/playground/
+Command pattern https://drivy.engineering/code_simplicity_command_pattern/
