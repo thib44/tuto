@@ -20,3 +20,6 @@ Or for all the modifications in current commit :<br>
 ## Remove file which I don't want to be tracted (delete it)
 
 `git rm -r --cached --ignore-unmatch MY_FILES`
+
+## Diff between two files (in same branch, same commit etc)
+`git diff --no-index file1 file2`
