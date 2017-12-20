@@ -20,3 +20,8 @@ https://mozilladevelopers.github.io/playground/ <br>
 Command pattern https://drivy.engineering/code_simplicity_command_pattern/
 
 5 RoR types : https://hackernoon.com/5-ruby-on-rails-tips-you-probably-dont-know-8b80b4a0890f
+
+
+## Frontend
+Modern front with actioncalbe and npm
+https://evilmartians.com/chronicles/evil-front-part-3 </br>
