@@ -25,3 +25,8 @@ Command pattern https://drivy.engineering/code_simplicity_command_pattern/
 ## Frontend
 Modern front with actioncalbe and npm
 https://evilmartians.com/chronicles/evil-front-part-3 </br>
+
+## Backend
+
+Create a gem <br>
+http://edgeguides.rubyonrails.org/engines.html
