@@ -28,5 +28,5 @@ https://evilmartians.com/chronicles/evil-front-part-3 </br>
 
 ## Backend
 
-Create a gem <br>
+Create an engine gem (with controller routes etc) <br>
 http://edgeguides.rubyonrails.org/engines.html
