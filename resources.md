@@ -5,6 +5,9 @@ Tech et market, bonne source d'inspiration:
 <br>
 Code pattern drivy :
 https://drivy.engineering/
+<br>
+HTPP CORS request : 
+https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 
 
 ## App :
