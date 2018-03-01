@@ -1,0 +1,14 @@
+https://github.com/ClockVapor/rpi_gpio
+
+RPi::GPIO.set_numbering :bcm
+
+RPi::GPIO.setup 18, :as => :output
+
+RPi::GPIO.setup 18, :as => :output
+
+pwm = RPi::GPIO::PWM.new(12, 33)
+
+pwm.start DUTY_CYCLE
+
+pwm.duty_cycle # get
+pwm.duty_cycle = NEW_DUTY_CYCLE # set
