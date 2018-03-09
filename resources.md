@@ -33,3 +33,6 @@ https://evilmartians.com/chronicles/evil-front-part-3 </br>
 
 Create an engine gem (with controller routes etc) <br>
 http://edgeguides.rubyonrails.org/engines.html
+<br>
+When use scope or class method ? <br>
+https://www.justinweiss.com/articles/should-you-use-scopes-or-class-methods/
