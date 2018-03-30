@@ -36,3 +36,6 @@ http://edgeguides.rubyonrails.org/engines.html
 <br>
 When use scope or class method ? <br>
 https://www.justinweiss.com/articles/should-you-use-scopes-or-class-methods/
+<br>
+Avoid N+1 Queries on rails : <br>
+https://medium.com/@codenode/10-tips-for-eager-loading-to-avoid-n-1-queries-in-rails-2bad54456a3f
