@@ -4,7 +4,7 @@ How to use Rspec ?
 Gem required :
 
 > `gem 'rspec-rails'` : https://github.com/rspec/rspec-rails  
-> `gem 'factory_girl_rails'` : https://github.com/thoughtbot/factory_girl  
+> `gem 'factory_bot_rails'` : https://github.com/thoughtbot/factory_bot_rails  
 
 
 Gem optional :
