@@ -39,6 +39,9 @@ https://www.justinweiss.com/articles/should-you-use-scopes-or-class-methods/
 <br>
 Avoid N+1 Queries on rails : <br>
 https://medium.com/@codenode/10-tips-for-eager-loading-to-avoid-n-1-queries-in-rails-2bad54456a3f
+<br>
+Learn arel : <br>
+https://www.calebwoods.com/2015/08/11/advanced-arel-cheat-sheet/
 
 ## Rails 
 
