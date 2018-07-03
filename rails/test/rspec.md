@@ -30,6 +30,8 @@ config.generators do |g|
     request_specs: false
 end
 ```
+
+Add this line to rails_helper.rb : `config.include FactoryBot::Syntax::Methods`
 <br>
 To avoid problem with email, add this two lines in `config/environments/test.rb` : <br>
 ```ruby
