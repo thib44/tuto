@@ -46,3 +46,6 @@ https://www.calebwoods.com/2015/08/11/advanced-arel-cheat-sheet/
 ## Rails 
 
 Leave migrations in rails engine : https://content.pivotal.io/blog/leave-your-migrations-in-your-rails-engines
+
+## Hebergement
+https://scalingo.com/fr
