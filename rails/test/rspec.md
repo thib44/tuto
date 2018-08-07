@@ -91,7 +91,7 @@ end
 
 ### To easy use factory girl :
 Add this line in `rails_helper.rb` :
-```
+```ruby
 # Include factory bot
 config.include FactoryBot::Syntax::Methods
 
