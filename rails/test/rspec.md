@@ -92,8 +92,12 @@ end
 ### To easy use factory girl :
 Add this line in `rails_helper.rb` :
 ```
-# Include factory girl
-config.include FactoryGirl::Syntax::Methods
+# Include factory bot
+config.include FactoryBot::Syntax::Methods
+
+config.before(:suite) do
+  FactoryBot.find_definitions
+end
 ```
 
 <h3> How to deal with devise ? </h3> <br>
