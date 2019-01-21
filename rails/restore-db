@@ -1,0 +1,1 @@
+pg_restore  --clean --no-owner --no-acl --dbname #name_of_the_db #path_of_the_db
