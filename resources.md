@@ -9,6 +9,9 @@ https://drivy.engineering/
 HTPP CORS request : 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 
+Test Pyramid :
+https://martinfowler.com/articles/practical-test-pyramid.html
+
 
 ## App :
 Pour dessiner des diagrammes
