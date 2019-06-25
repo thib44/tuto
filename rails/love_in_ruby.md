@@ -1,0 +1,1 @@
+** OpenStruct :** An OpenStruct is a data structure, similar to a Hash, that allows the definition of arbitrary attributes with their accompanying values. https://ruby-doc.org/stdlib-2.6.2/libdoc/ostruct/rdoc/OpenStruct.html
